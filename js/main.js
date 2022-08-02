@@ -159,7 +159,7 @@ var content = `
 版 本 号：1.1
 更新日期：2022-07-12
 
-Github:  https://github.com/Wayne/Snavigation
+Github:  https://github.com/Waynenet/Snavigation
 `
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)

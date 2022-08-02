@@ -1,7 +1,9 @@
 <p>
-<strong><h2>Snavigation</h2></strong>
+<strong><h2>WayneのStart</h2></strong>
 一个简约的起始页
 </p>
+
+来自[Snavigation](https://github.com/imsyy/Snavigation)
 
 ![Snavigation.png](https://s2.loli.net/2022/07/15/FE6U2BJCynHDep8.jpg)
 
@@ -10,7 +12,7 @@
 ### Demo
 >由于 CDN 缓存原因，查看最新效果可能需要 `Ctrl` + `F5` 强制刷新浏览器缓存
 
-- [Snavigation](https://snavigation.vercel.app/)
+- [WayneのStart](https://start.dang.gq/)
 
 ### 功能
 
@@ -34,11 +36,5 @@
 * [小歪 API](https://api.ixiaowai.cn/)
 * [天气 API](https://www.tianqiapi.com/)
 
-### 鸣谢
 
-本站部分内容参考自
-
-* [青柠起始页](https://limestart.cn/)
-* [sou2](https://github.com/yeetime/sou2/)
-
-<a title="SSL" target="_blank" href="https://myssl.com/seal/detail?domain=blog.imsyy.top"><img src="https://img.shields.io/badge/MySSL-安全认证-brightgreen"></a>&nbsp;<a title="CDN" target="_blank" href="https://cdnjs.com/"><img src="https://img.shields.io/badge/CDN-Cloudflare-blue"></a>&nbsp;<a title="Copyright" target="_blank" href="https://imsyy.top/"><img src="https://img.shields.io/badge/Copyright%20%C2%A9%202020--2022-%E7%84%A1%E5%90%8D-red"></a>
+<a title="CDN" target="_blank" href="https://cdnjs.com/"><img src="https://img.shields.io/badge/CDN-Cloudflare-blue"></a>&nbsp;<a title="Copyright" target="_blank" href="https://soga.ml/"><img src="https://img.shields.io/badge/Copyright%20%C2%A9%202022--2022-Wayne-red"></a>

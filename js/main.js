@@ -130,12 +130,29 @@ $(function () {
     })
 })
 
+//输入框为空时阻止跳转
+$(window).keydown(function (e) {
+    var key = window.event ? e.keyCode : e.which;
+    if (key.toString() == "13") {
+        if ($(".wd").val() == "") {
+            return false;
+        }
+    }
+});
+
 //点击搜索按钮
 $(".sou-button").click(function () {
-    iziToast.show({
-        message: '问题未修复，请点击键盘上的确认键以搜索',
-    });
-    // $('#search-submit').click();
+    if ($("body").attr("class") === "onsearch") {
+        if ($(".wd").val() != "") {
+            $("#search-submit").click();
+        }
+    }
+});
+
+$(window).mousedown(function (event) {
+    if (event.button == 1) {
+        $("#time_text").click();
+    }
 });
 
 //控制台输出
